@@ -52,6 +52,10 @@ variables:
 
 contexts:
   main:
+      # Hello! This is it.
+    - match: '[^\x00-\x7F]'
+      scope: unicode.julia
+
       # a helper to support emoji completion
     - match: '\\:'
       scope: keyword.operator.julia meta.disable-completion.julia
@@ -390,21 +394,14 @@ contexts:
       captures:
         1: keyword.operator.broadcast.julia
         2: keyword.operator.assignment.julia
-    - match: (\.)({{symb_op_ascii}})
+    - match: (\.)({{symb_op}})
       captures:
         1: keyword.operator.broadcast.julia
         2: keyword.operator.julia
-    - match: (\.)({{symb_op_unicode}})
-      captures:
-        1: keyword.operator.broadcast.julia
-        2: keyword.operator.julia unicode.julia
     # regular operators
-    - match: ({{long_op}}|{{symb_op_ascii}})
+    - match: ({{long_op}}|{{symb_op}})
       captures:
         1: keyword.operator.julia
-    - match: ({{symb_op_unicode}})
-      captures:
-        1: keyword.operator.julia unicode.julia
 
   quote-include:
     - include: comments
