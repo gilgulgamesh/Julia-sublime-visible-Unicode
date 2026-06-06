@@ -1,4 +1,4 @@
-# Julia-sublime-Visible-unicode
+# Julia-sublime-visible-Unicode
 An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one distinct colour category. 
 
 ### warning
