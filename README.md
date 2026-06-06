@@ -1,5 +1,7 @@
 # Julia-sublime-visible-Unicode
-An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one distinct colour category. 
+An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one distinct colour category.  
+
+Inspired by JulIDE
 
 ### warning
 Replaces semantic scopes for all unicode characters. So don't rely on semantic features or use an lsp.
