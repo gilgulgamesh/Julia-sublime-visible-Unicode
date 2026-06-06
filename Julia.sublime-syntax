@@ -390,14 +390,21 @@ contexts:
       captures:
         1: keyword.operator.broadcast.julia
         2: keyword.operator.assignment.julia
-    - match: (\.)({{symb_op}})
+    - match: (\.)({{symb_op_ascii}})
       captures:
         1: keyword.operator.broadcast.julia
         2: keyword.operator.julia
+    - match: (\.)({{symb_op_unicode}})
+      captures:
+        1: keyword.operator.broadcast.julia
+        2: keyword.operator.julia unicode.julia
     # regular operators
-    - match: ({{long_op}}|{{symb_op}})
+    - match: ({{long_op}}|{{symb_op_ascii}})
       captures:
         1: keyword.operator.julia
+    - match: ({{symb_op_unicode}})
+      captures:
+        1: keyword.operator.julia unicode.julia
 
   quote-include:
     - include: comments
