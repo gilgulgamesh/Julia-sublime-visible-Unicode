@@ -2,7 +2,7 @@
 An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one distinct colour category. 
 
 ### warning
-Replaces semantic scopes for all unicode characters. So don't rely on semantic features use an lsp.
+Replaces semantic scopes for all unicode characters. So don't rely on semantic features or use an lsp.
 
 
 
