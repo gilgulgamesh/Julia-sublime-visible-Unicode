@@ -1,8 +1,13 @@
 # Julia-sublime-Visible-unicode
-An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one visible colour. Breaks all other scopes they should belong too, beware.
+An opinionated hack fork of the Julia-sublime syntax package, where all unicode is one distinct colour category. 
 
-# Add a colour choice
-If you don't it'll probably be ugly ootb
+### warning
+Replaces semantic scopes for all unicode characters. So don't rely on semantic features use an lsp.
+
+
+
+## Add a colour choice
+If you don't, it'll probably be ugly ootb
 
 In theme settings, add a colour for unicode.julia, like below 
 
@@ -27,7 +32,7 @@ In theme settings, add a colour for unicode.julia, like below
 (or with a variable from your theme)
 
 
-# Original ReadMe
+## Original ReadMe
       
       Julia language support for Sublime Text 4 or above
       
