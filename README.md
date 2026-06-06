@@ -4,7 +4,7 @@ An opinionated hack fork of the Julia-sublime syntax package, where all unicode 
 # Add a colour choice
 If you don't it'll probably be ugly ootb
 
-In theme settings, add a special colour for unicode.julia, like below 
+In theme settings, add a colour for unicode.julia, like below 
 
 ```
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
@@ -26,6 +26,8 @@ In theme settings, add a special colour for unicode.julia, like below
 ```
 (or with a variable from your theme)
 
+
+# Original ReadMe
       
       Julia language support for Sublime Text 4 or above
       
